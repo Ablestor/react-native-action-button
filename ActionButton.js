@@ -182,6 +182,7 @@ const ActionButton = (props) => {
 
     return (
       <Animated.Text
+        adjustsFontSizeToFit={true}
         style={[
           styles.btnText,
           buttonTextStyle,
