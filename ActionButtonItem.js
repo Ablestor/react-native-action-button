@@ -168,7 +168,7 @@ export default class ActionButtonItem extends Component {
       this.props.title
     ) : (
       <Text
-        allowFontScaling
+        allowFontScaling={this.props.allowFontScaling}
         style={[styles.text, this.props.textStyle]}
         numberOfLines={numberOfLines}
       >
